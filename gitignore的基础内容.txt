@@ -1,0 +1,26 @@
+
+# 通用忽略规则
+*.py[cod]    # Python编译文件（.pyc, .pyo, .pyd）
+__pycache__/ # Python缓存目录
+*.so         # C扩展编译结果
+*.egg-info/  # Python包元数据
+dist/        # 打包输出目录
+build/       # 编译生成目录
+
+# 开发环境文件
+.env         # 环境变量文件
+.venv/       # 虚拟环境目录
+venv/        # 虚拟环境目录（常见命名）
+.env.local   # 本地环境变量
+
+# IDE和编辑器
+.idea/       # PyCharm配置目录
+.vscode/     # VS Code配置
+*.swp        # Vim临时文件
+*.sublime-*  # Sublime Text临时文件
+
+# 系统文件
+.DS_Store    # macOS属性文件
+Thumbs.db    # Windows缩略图缓存
+
+#
