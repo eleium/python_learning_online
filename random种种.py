@@ -12,5 +12,5 @@ print(number1)
 number2=random.randrange(1,10,2)#左闭右开，包含左，不包含右。而且可以在最后设置步长step。
 print(number2)#两个随机数之间的步长是2
 
-number3=random.random()#生成一个半开区间的随机浮点数，----> 0.42342
+number3=random.random()#生成一个半开区间的随机浮点数，----> 0.42342（咋都是小于1？）
 print(number3)
