@@ -21,3 +21,9 @@ venv/        # 虚拟环境目录（常见命名）
 # 系统文件
 .DS_Store    # macOS属性文件
 Thumbs.db    # Windows缩略图缓存
+
+python docs/
+python_download/
+python-100-Days/
+Thonny的临时创造的文件/
+python lesson/
