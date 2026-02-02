@@ -29,3 +29,8 @@ Thonny的临时创造的文件/
 python lesson/
 fish/
 linlili_local/
+
+   # PyCharm 工程文件
+   .idea/misc.xml
+   .idea/*.iml
+   .idea/modules.xml
