@@ -1,0 +1,23 @@
+真值表 and
+
+A	B	A and B
+True	True	True
+True	False	False
+False	True	False
+False	False	False
+
+真值表 or
+A	B	A or B
+True	True	True
+True	False	True
+False	True	True
+False	False	False
+
+not（逻辑非）
+规则：取反，True 变 False，False 变 True。
+
+真值表：
+
+A	not A
+True	False
+False	True
