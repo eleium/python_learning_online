@@ -1,0 +1,43 @@
+github对新手太不友好
+如果你改变里本地文件夹的路径，你完蛋了
+如果你不懂配置.gitignore,你完蛋了
+如果你更改了文件名，你完蛋了
+你要记住bash命令；
+
+git init
+git config --global user.name "eleium"
+git config --global user.email "422875640@qq.com"
+
+git remote add origin git@github.com:eleium/fish.git
+git add .
+git commit -m"他妈的都是啥啊"
+git branch -M master main
+git push -u origin main
+
+git status      查看当前仓库状态，
+		包括已修改、已暂存、未跟踪文件。当前分支与远程分支的同步状态。
+		--提交代码前检查哪些文件有变更
+		--合并分支后确认冲突文件
+		--任何操作前，确认仓库状态。
+git remote -v  查看当前远程绑定的仓库url。
+
+git reset 	撤销提交或取消暂存。
+git clean -fd   删除所有未跟踪的文件和目录（-f,强制。-d，目录）
+
+git pull
+
+
+本地仓库更名、该地址后,远程仓库没变。
+1，git remote -v  查看以前绑定的仓库地址
+2，git remote add origin git@github.com:eleium/远程仓库.git
+如果远程仓库也变了：
+git remote set-url origin git@github.com:eleium/新远程仓库.git
+验证连接：
+git fetch origin 测试远程连接
+git branch -vv 检查分支跟踪关系。
+
+容易犯错的情况：
+fatal: remote origin already exists	重复添加同名远程仓库	先删除旧远程：git remote remove origin
+Permission denied (publickey)	SSH 密钥未配置	生成并添加SSH密钥到GitHub
+error: failed to push some refs	远程有本地没有的提交	先执行 git pull --rebase
+本地更改丢失	误用 git reset --hard 或 git clean -fd	用 git reflog 找回历史

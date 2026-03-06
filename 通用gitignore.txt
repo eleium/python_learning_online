@@ -1,0 +1,69 @@
+# ---------------------------
+# Python 通用忽略规则
+# ---------------------------
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+pip-env/
+
+# Build and distribution folders
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Installer logs and cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test/coverage reports
+htmlcov/
+.coverage
+*.cover
+.pytest_cache/
+.mypy_cache/
+
+# ---------------------------
+# PyCharm 专属忽略规则
+# ---------------------------
+# JetBrains IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+*.orig
+*.swp
+
+# ---------------------------
+# VS Code 专属忽略规则
+# ---------------------------
+.vscode/
+!.vscode/settings.json  # 保留必要的配置文件
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ---------------------------
+# 系统/通用忽略规则
+# ---------------------------
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# 日志和临时文件
+*.log
+*.tmp
+*.bak
