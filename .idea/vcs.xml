@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/fish" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/linlili_local" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/trae_teacher" vcs="Git" />
-  </component>
-</project>
