@@ -34,26 +34,24 @@ class MyClass:
 
 
 class myclass:
-
-    def __init__(self, a, b, c):  # 构造myclass的属性有三：a,b,c
+    def __init__(self, a, b, c):  # 构造 myclass 的属性有三：a,b,c
         self.a = a
         self.b = b
         self.c = c
 
-        # 没有创建实例，所以这个类没啥用。下面的跟这个类没关系。
-
-        def sum(self):
-            """
-            计算三个属性 a、b、c 的总和
-            
-            Returns:
-                int/float: 返回 a、b、c 三个属性的和
-            """
-            sum = self.a + self.b + self.c
+    def sum(self):
+        """
+        计算三个属性 a、b、c 的总和
+        
+        Returns:
+            int/float: 返回 a、b、c 三个属性的和
+        """
+        return self.a + self.b + self.c
 
 
 xuanxuan = myclass(7, 8, 9)
-print(xuanxuan)
+print(f"a={xuanxuan.a}, b={xuanxuan.b}, c={xuanxuan.c}")
+print(f"总和：{xuanxuan.sum()}")
 
 # a=int(input('a:'))
 # b=int(input('b:'))
