@@ -1,0 +1,30 @@
+语法结构		缩进要求
+if-else		if、elif、else 必须同级对齐，代码块缩进一级
+
+while-else		while和else必须同级对齐，循环体缩进一级
+
+elif		与if同级对齐（不是if的子句，而是平行条件）
+
+
+age = 18
+if age < 18 :
+    print('未成年')
+elif age == 18:
+    print('刚成年')
+else:
+    print('成年人')
+
+
+count = 0
+while count < 3:
+    print(count)
+    count+=1
+else:
+    print('循环结束')
+
+if/elif/else必须严格垂直对齐
+wlile/else必须严格垂直对齐
+
+所有逻辑块（if/elif/else/while下的代码）都要缩进一级。
+
+elif是else if 的缩写。不是if 的子句，是与if 同级别，因此要对齐if。
