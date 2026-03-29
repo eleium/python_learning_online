@@ -1,9 +1,0 @@
-
-editor.fontFamily              :  Consolas,'SimSun', 'Courier New', monospace
-editor.fontSize                : 15
-terminal.integrated.fontFamily : Consolas,'SimSun'
-terminal.integrated.fontSize   : 15
-files.autoSave                 : afterDelay
-editor.formatOnSave            : True
-python.defaultInterpreterPath  : d:/python_learning/.venv/Scripts/python.exe
-
